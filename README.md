@@ -17,7 +17,7 @@ shellで使用可能なcommitテンプレートも下に置いてあります。
 | gitmoji | escape | prefix | description | 説明（日本語訳） | example |
 |---------|--------|--------|-------------|------|---------|
 | ✨ | `:sparkles:` | feat | Add new feature | 新機能の追加 | `✨ feat: add user profile editing feature` |
-| 🐞 | `:lady_beetle:` | fix | Fix a bug (including security fixes) | バグ修正（セキュリティ修正含む） | `🐞 fix(security): fix XSS vulnerability` |
+| 🐞 | `:lady_beetle:` | fix | Fix a bug (including security fixes) | バグ修正（セキュリティ修正含む） | `🐞 fix: fix display failure` |
 | 📝 | `:memo:` | docs | Add or update documentation | ドキュメントの追加・修正 | `📝 docs: add new endpoint to API specification` |
 | 💄 | `:lipstick:` | ui | Update UI and style files | UIに関する変更 | `💄 ui: change button color to brand color` |
 | ⚡ | `:zap:` | perf | Improve performance | パフォーマンス改善 | `⚡ perf: reduce API response time by 300ms` |
