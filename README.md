@@ -1,20 +1,16 @@
-# gitmoji-commit-message-template
+# Gitmoji Commit Message Template
 
-A handy guide for using gitmoji(emoji) as commit message prefixes.
-
-Make your commit history easier to read, add some visual fun, and boost your mood while coding.
-
+A handy guide for using gitmoji(emoji) as commit message prefixes.<br>
+Make your commit history easier to read, add some visual fun, and boost your mood while coding.<br>
 We also have a commit template below that can be used with shell.
 
-コミットメッセージのprefixとしてgitmoji(emoji)を使用する際に使えるガイドです。
+コミットメッセージのprefixとしてgitmoji(emoji)を使用する際に使えるガイドです。<br>
+履歴を見やすくしつつ、見た目に賑やかにしてテンションを上げましょう。<br>
+shellで使用可能なcommitテンプレートも下に置いてあります。<br>
 
-履歴を見やすくしつつ、見た目に賑やかにしてテンションを上げましょう。
+## gitmoji Prefix and Escape Guide
 
-shellで使用可能なcommitテンプレートも下に置いてあります。
-
-## Gitmoji prefix and escape guide
-
-| gitmoji | escape | prefix | description | 説明（日本語訳） | example |
+| gitmoji | Escape | Prefix | Description | 説明（日本語訳） | Example |
 |---------|--------|--------|-------------|------|---------|
 | ✨ | `:sparkles:` | feat | Add new feature | 新機能の追加 | `✨ feat: add user profile editing feature` |
 | 🐞 | `:lady_beetle:` | fix | Fix a bug (including security fixes) | バグ修正（セキュリティ修正含む） | `🐞 fix: fix display failure` |
@@ -37,7 +33,6 @@ shellで使用可能なcommitテンプレートも下に置いてあります。
 | 🎉 | `:tada:` | init | Begin a project | プロジェクト初期コミット | `🎉 init: create project structure` |
 
 ## Template
-Uncomment out the line to be used and write a comment.
 
 ```zsh
 # ✨ feat: 
@@ -80,10 +75,15 @@ Uncomment out the line to be used and write a comment.
 # └ Begin a project
 ```
 
-## How to set the template
-Use this as `~/.gitmessage` (name and location optional), and set that file as a template in git config in following steps:
+## How to use the template?
+First, create `~/.gitmessage` (name and location optional) by `touch`.<br>
+Then, copy the template and paste it into created file.<br>
+Lastly, set that file as a template in git config.<br>
 
 ```
 touch ~/.gitmessage.txt
 git config --global commit.template ~/.gitmessage.txt
 ```
+
+You are ready! 🎉<br>
+Uncomment out the line for use to write a comment!
