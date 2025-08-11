@@ -1,4 +1,4 @@
-# gitmoji(Emoji) for Commit Message Template🚀
+# Use gitmoji(Emoji) for Commit Message Template🚀
 
 A handy guide for using gitmoji(emoji) as commit message prefixes.<br>
 Make your commit history easier to read, add some visual fun, and boost your mood while coding.<br>
