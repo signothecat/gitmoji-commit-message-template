@@ -12,7 +12,7 @@ We also have a commit template below that can be used with shell.
 
 shellで使用可能なcommitテンプレートも下に置いてあります。
 
-## gitmoji prefix and escape gudie
+## Gitmoji prefix and escape guide
 
 | gitmoji | escape | prefix | description | 説明（日本語訳） | example |
 |---------|--------|--------|-------------|------|---------|
@@ -36,7 +36,7 @@ shellで使用可能なcommitテンプレートも下に置いてあります。
 | 🚀 | `:rocket:` | deploy | Deploy stuff | 本番やステージングへのデプロイ | `🚀 deploy: release v1.2.0 to production` |
 | 🎉 | `:tada:` | init | Begin a project | プロジェクト初期コミット | `🎉 init: create project structure` |
 
-## for git commit message template
+## Template
 Uncomment out the line to be used and write a comment.
 
 ```zsh
@@ -80,7 +80,7 @@ Uncomment out the line to be used and write a comment.
 # └ Begin a project
 ```
 
-## how to set the template
+## How to set the template
 Use this as `~/.gitmessage` (name and location optional), and set that file as a template in git config in following steps:
 
 ```
