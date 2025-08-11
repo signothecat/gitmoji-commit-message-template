@@ -14,7 +14,7 @@ shellで使用可能なcommitテンプレートも下に置いてあります。
 
 ## gitmoji prefix and escape gudie
 
-| gitmoji | escape | prefix | description | 説明 | example |
+| gitmoji | escape | prefix | description | 説明（日本語訳） | example |
 |---------|--------|--------|-------------|------|---------|
 | ✨ | `:sparkles:` | feat | Add new feature | 新機能の追加 | `✨ feat: add user profile editing feature` |
 | 🐞 | `:lady_beetle:` | fix | Fix a bug (including security fixes) | バグ修正（セキュリティ修正含む） | `🐞 fix(security): fix XSS vulnerability` |
