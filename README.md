@@ -1,12 +1,18 @@
-# gitmoji-prefix-guide
+# gitmoji-commit-message-template
 
-A handy guide for using gitmoji as commit message prefixes.
+A handy guide for using gitmoji(emoji) as commit message prefixes.
 
 Make your commit history easier to read, add some visual fun, and boost your mood while coding.
 
-コミットメッセージのprefixとしてgitmojiを使用する際に使えるガイドです。
+We also have a commit template below that can be used with shell.
+
+コミットメッセージのprefixとしてgitmoji(emoji)を使用する際に使えるガイドです。
 
 履歴を見やすくしつつ、見た目に賑やかにしてテンションを上げましょう。
+
+shellで使用可能なcommitテンプレートも下に置いてあります。
+
+## gitmoji prefix and escape gudie
 
 | gitmoji | escape | prefix | description | 説明 | example |
 |---------|--------|--------|-------------|------|---------|
@@ -29,3 +35,55 @@ Make your commit history easier to read, add some visual fun, and boost your moo
 | 🏷️ | `:bookmark:` | release | Release / Version tags | バージョンリリース | `🏷️ release: v1.0.0` |
 | 🚀 | `:rocket:` | deploy | Deploy stuff | 本番やステージングへのデプロイ | `🚀 deploy: release v1.2.0 to production` |
 | 🎉 | `:tada:` | init | Begin a project | プロジェクト初期コミット | `🎉 init: create project structure` |
+
+## for git commit message template
+Uncomment out the line to be used and write a comment.
+
+```zsh
+# ✨ feat: 
+# └ Add new feature
+# 🐞 fix: 
+# └ Fix a bug (including security fixes)
+# 📝 docs: 
+# └ Add or update documentation
+# 💄 ui: 
+# └ Update UI and style files
+# ⚡ perf: 
+# └ Improve performance
+# ♻️ refactor: 
+# └ Refactor code without changing functionality
+# 🎨 style: 
+# └ Improve structure/format of the code
+# 🍱 assets: 
+# └ Add or update assets
+# 🗑️ remove: 
+# └ Remove code or files
+# 🧪 test: 
+# └ Add or update tests
+# 📦 build: 
+# └ Add or update build system or dependencies
+# 🚑 hotfix: 
+# └ Critical hotfix
+# 🔧 chore: 
+# └ Add or update configuration files or scripts
+# 🚧 wip: 
+# └ Work in progress
+# ⏪ revert: 
+# └ Revert changes
+# 🔀 merge: 
+# └ Merge branches
+# 🏷️ release: 
+# └ Release / Version tags
+# 🚀 deploy: 
+# └ Deploy stuff
+# 🎉 init: 
+# └ Begin a project
+```
+
+## how to set the template
+Use this as `~/.gitmessage` (name and location optional), and set that file as a template in git config in following steps:
+
+```
+touch ~/.gitmessage.txt
+git config --global commit.template ~/.gitmessage.txt
+```
