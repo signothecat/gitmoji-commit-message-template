@@ -1,5 +1,13 @@
 # gitmoji-prefix-guide
 
+A comprehensive guide for using gitmoji as commit message prefixes.
+
+This table helps you choose the right emoji for your commits, making your commit history clear, consistent, and visually appealing.
+
+コミットメッセージのprefixとしてgitmojiを使用する際に使えるガイドです。
+
+履歴を見やすくしつつ、見た目に賑やかにしてテンションを上げましょう。
+
 | gitmoji | escape | prefix | description | 説明 | example |
 |---------|--------|--------|-------------|------|---------|
 | ✨ | `:sparkles:` | feat | Add new feature | 新機能の追加 | `✨ feat: add user profile editing feature` |
