@@ -1,7 +1,8 @@
 # Use gitmoji(Emoji) for Commit Message🚀
 
 This is a ready-to-use **commit message template** to keep your history visually better.<br>
-There's also a simple guide to using gitmoji as commit message prefixes below.
+Use it by setting it in `commit.template`.<br>
+There's also **a simple guide** to using gitmoji as commit message prefixes below.
 
 ## gitmoji Prefix Template
 
@@ -48,12 +49,16 @@ There's also a simple guide to using gitmoji as commit message prefixes below.
 ```
 
 ## How to use the template?
-First, create `~/.gitmessage` (name and location optional) by `touch`.<br>
+First, create `~/.gitmessage` (name and location optional) by `touch`.
+
+```
+touch ~/.gitmessage.txt
+```
+
 Then, copy the template and paste it into created file.<br>
 Lastly, set that file as a template in git config.<br>
 
 ```
-touch ~/.gitmessage.txt
 git config --global commit.template ~/.gitmessage.txt
 ```
 
