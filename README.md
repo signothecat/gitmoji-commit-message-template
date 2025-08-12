@@ -7,45 +7,45 @@ There's also **a simple guide** to using gitmoji as commit message prefixes belo
 ## gitmoji Prefix Template
 
 ```zsh
-# ✨ feat: 
-# └ Add new feature
-# 🐞 fix: 
-# └ Fix a bug (including security fixes)
-# 📝 docs: 
-# └ Add or update documentation
-# 💄 ui: 
-# └ Update UI and style files
-# ⚡ perf: 
-# └ Improve performance
-# ♻️ refactor: 
-# └ Refactor code without changing functionality
-# 🎨 style: 
-# └ Changes that do not affect the meaning of the code
-#   (white-space, missing semi-colon, etc.)
-# 🍱 assets: 
-# └ Add or update assets
-# 🗑️ remove: 
-# └ Remove code or files
-# 🧪 test: 
-# └ Add or update tests
-# 📦 build: 
-# └ Add or update build system or dependencies
-# 🚑 hotfix: 
-# └ Critical hotfix
-# 🔧 chore: 
-# └ Add or update configuration files or scripts
-# 🚧 wip: 
-# └ Work in progress
-# ⏪ revert: 
-# └ Revert changes
-# 🔀 merge: 
-# └ Merge branches
-# 🏷️ release: 
-# └ Release / Version tags
-# 🚀 deploy: 
-# └ Deploy stuff
-# 🎉 init: 
-# └ Begin a project
+#✨ feat: 
+#└ Add new feature
+#🐞 fix: 
+#└ Fix a bug (including security fixes)
+#📝 docs: 
+#└ Add or update documentation
+#💄 ui: 
+#└ Update UI and style files
+#⚡ perf: 
+#└ Improve performance
+#♻️ refactor: 
+#└ Refactor code without changing functionality
+#🎨 style: 
+#└ Changes that do not affect the meaning of the code
+#  (white-space, missing semi-colon, etc.)
+#🍱 assets: 
+#└ Add or update assets
+#🗑️ remove: 
+#└ Remove code or files
+#🧪 test: 
+#└ Add or update tests
+#📦 build: 
+#└ Add or update build system or dependencies
+#🚑 hotfix: 
+#└ Critical hotfix
+#🔧 chore: 
+#└ Add or update configuration files or scripts
+#🚧 wip: 
+#└ Work in progress
+#⏪ revert: 
+#└ Revert changes
+#🔀 merge: 
+#└ Merge branches
+#🏷️ release: 
+#└ Release / Version tags
+#🚀 deploy: 
+#└ Deploy stuff
+#🎉 init: 
+#└ Begin a project
 ```
 
 ## How to use the template?
