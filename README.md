@@ -8,12 +8,12 @@ There's also **a simple guide** to using gitmoji as commit message prefixes belo
 
 Clone the repo:
 ```
-git clone https://github.com/signothecat/github-commit-message-template.git
+git clone https://github.com/signothecat/gitmoji-commit-message-template.git
 ```
 
 Move to directory:
 ```
-cd github-commit-message-template
+cd gitmoji-commit-message-template
 ```
 
 Copy .gitmessage.txt to your home directory:
