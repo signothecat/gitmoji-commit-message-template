@@ -97,3 +97,6 @@ Uncomment out the line for use to write a comment!
 | 🏷️ `:bookmark:` | release | Release / Version tags | `🏷️ release: v1.0.0` |
 | 🚀 `:rocket:` | deploy | Deploy stuff | `🚀 deploy: release v1.2.0 to production` |
 | 🎉 `:tada:` | init | Begin a project | `🎉 init: create project structure` |
+
+## License
+MIT License
