@@ -4,9 +4,35 @@ This is a ready-to-use **commit message template** to keep your history visually
 Use it by setting it in `commit.template`.<br><br>
 There's also **a simple guide** to using gitmoji as commit message prefixes below.
 
-## gitmoji Prefix Template
+## Getting started / Installation
 
-```zsh
+Clone the repo:
+```
+git clone https://github.com/signothecat/github-commit-message-template.git
+```
+
+Move to directory:
+```
+cd github-commit-message-template
+```
+
+Copy .gitmessage.txt to your home directory:
+```
+cp -i .gitmessage.txt ~/
+```
+
+Set that file as a template in git config.<br>
+
+```
+git config --global commit.template ~/.gitmessage.txt
+```
+
+You're all set! 🎉<br>
+Uncomment out the line for use to write a comment!
+
+## Template overview
+
+```txt
 #✨ feat: 
 #└ Add new feature
 #🐞 fix: 
@@ -48,33 +74,7 @@ There's also **a simple guide** to using gitmoji as commit message prefixes belo
 #└ Begin a project
 ```
 
-## Getting started / Installation
-
-Clone the repo:
-```
-git clone https://github.com/signothecat/github-commit-message-template.git
-```
-
-Move to directory:
-```
-cd github-commit-message-template
-```
-
-Copy .gitmessage.txt to your home directory:
-```
-cp -i .gitmessage.txt ~/
-```
-
-Set that file as a template in git config.<br>
-
-```
-git config --global commit.template ~/.gitmessage.txt
-```
-
-You're all set! 🎉<br>
-Uncomment out the line for use to write a comment!
-
-## gitmoji Prefix Usage
+## A simple guide - gitmoji Prefix Usage
 
 | gitmoji | Prefix | Description | Example |
 |---------|--------|-------------|---------|
