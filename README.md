@@ -48,15 +48,24 @@ There's also **a simple guide** to using gitmoji as commit message prefixes belo
 #└ Begin a project
 ```
 
-## How to use the template?
-First, create `~/.gitmessage` (name and location optional) by `touch`.
+## Getting started / Installation
 
+Clone the repo:
 ```
-touch ~/.gitmessage.txt
+git clone https://github.com/signothecat/github-commit-message-template.git
 ```
 
-Then, copy the template and paste it into created file.<br>
-Lastly, set that file as a template in git config.<br>
+Move to directory:
+```
+cd github-commit-message-template
+```
+
+Copy .gitmessage.txt to your home directory:
+```
+cp -i .gitmessage.txt ~/
+```
+
+Set that file as a template in git config.<br>
 
 ```
 git config --global commit.template ~/.gitmessage.txt
